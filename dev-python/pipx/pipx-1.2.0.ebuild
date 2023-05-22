@@ -23,6 +23,7 @@ SLOT="0"
 IUSE="test"
 
 RDEPEND="
+	dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/userpath[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
